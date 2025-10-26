@@ -4,10 +4,11 @@
 int main() {
     char first[255], last[255];
     
-    printf("Main branch modification - Production Version 2.0\n");
+    printf("Integrated: Production v2.0 + Experimental Features\n");
+    
     printf("Enter your first name: ");
     fgets(first, 255, stdin);
-    first[strlen(first)-1] = '\0';  // 移除换行符
+    first[strlen(first)-1] = '\0';
     
     printf("Now enter your last name: ");
     fgets(last, 255, stdin);
