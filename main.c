@@ -4,7 +4,7 @@
 int main() {
     char first[255], last[255];
     
-    printf("Hello Git Lab Experiment!\n");
+    printf("Main branch modification - Production Version 2.0\n");
     printf("Enter your first name: ");
     fgets(first, 255, stdin);
     first[strlen(first)-1] = '\0';  // 移除换行符
