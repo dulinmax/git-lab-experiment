@@ -13,7 +13,7 @@ int main() {
     printf("Now enter your last name: ");
     fgets(last, 255, stdin);
     last[strlen(last)-1] = '\0';
-    
+    printf("yeah\n")；
     printf("Hello %s %s! This is from GUI branch.\n", first, last);
     return 0;
 }
